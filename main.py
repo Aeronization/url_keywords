@@ -1,3 +1,5 @@
+import time
+
 def match_keyword_in_url(url: str, keywords: list) -> list:
     """
     (R. Friel - November 18, 2020)
@@ -19,7 +21,9 @@ def match_keyword_in_url(url: str, keywords: list) -> list:
     return keyword_matches
 
 
-keywords = ["www", "rockerbox", "data", "badword", "word", "tornado", "django"]
-url = "www.rockerbox.com?data=tornado"
+# keywords = ["www", "rockerbox", "data", "badword", "word", "tornado", "django"]
+# url = "www.rockerbox.com?data=tornado"
 
+start_time = time.time()
 print(match_keyword_in_url(url=url,keywords=keywords))
+print(f"--- {(time.time() - start_time)} seconds ---")
