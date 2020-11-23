@@ -15,4 +15,4 @@ Assume you are designing a performance application to match keywords found in a 
 ## Solution
 
 Quick Answer:
-    Lists & List comprehensions will be ideal here while working with Pyhon.
+    Lists & List comprehensions will be ideal here while working with Python.
